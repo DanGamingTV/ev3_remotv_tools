@@ -1,14 +1,25 @@
 //const { Webhook, MessageBuilder } = require('discord-webhook-node');
 const hookcord = require('hookcord');
 const fs = require('fs');
-//const hook = new Webhook("https://discordapp.com/api/webhooks/717097910424043580/EbjM_rCMU9sFy42PZtLnS40yYsAmO86VM4rDerPjMoUHDJMCG-pHrCZKywMlZmWR0SAi");
+const WebSocket = require('ws');
+require('dotenv').config();
+const port = 3000
+
 const Hook = new hookcord.Hook()
-Hook.login('717097910424043580', 'EbjM_rCMU9sFy42PZtLnS40yYsAmO86VM4rDerPjMoUHDJMCG-pHrCZKywMlZmWR0SAi')
+Hook.login(process.env.ID, process.env.TOKEN)
+
+const OBSWebSocket = require('obs-websocket-js');
+const obs = new OBSWebSocket();
+obs.connect({ address: 'localhost:4898' });
 
 //vars
 const serverName = "danno's robots";
 const offlineColor = 16711680
 const onlineColor = 61455
+
+function doAtDate(date, func) {
+	setTimeout(func, date-(new Date().getTime()))
+}
 
 var robots_a = [
 	{
@@ -24,7 +35,10 @@ var robots_a = [
 	}
 ]
 
-fs.readFile('status.json', 'utf8', function(err,data) {
+
+
+
+	fs.readFile('status.json', 'utf8', function(err,data) {
 	var robots = JSON.parse(data)
 	console.log(`awooga awooga ${data}`)
 	console.log("hi")
@@ -33,8 +47,11 @@ fs.readFile('status.json', 'utf8', function(err,data) {
 
 
 
-
-
+function on_scene() {
+	obs.send('SetCurrentScene', {
+                    'scene-name': 'iphone + gopro'
+                });
+}
 
 
 const embed_lol = {
@@ -69,8 +86,22 @@ const embed_lol = {
   ]
 }
  
+//doAtDate(on_scene(), robots[0].next_epoch)
+ 
 for (var i = 0; i < robots.length; i++) {
 	var urlLol = ""
+	if (i == 0) {
+		if (robots[i].online == false) {
+			obs.send('SetCurrentScene', {
+                    'scene-name': 'charging ev3'
+                });
+		} else {
+			obs.send('SetCurrentScene', {
+                    'scene-name': 'iphone + gopro'
+                });
+		}
+	}
+	
 	if (robots[i].hasOwnProperty('url')) {
 		urlLol = `[robots[i].url`
 		embed_lol.embeds.push({
@@ -97,10 +128,6 @@ for (var i = 0; i < robots.length; i++) {
 Hook.setPayload(embed_lol)
 
 Hook.fire()
-  .then(response_object => {  })
-  .catch(error => {
-    throw error;
-  })
 
 var obsText = `${robots[0].name} Status: ${(robots[0].online == false) ? "Offline":"Online"}
 Will be ${(robots[0].online == false) ? "online":"offline"} at: ${robots[0].next}`
@@ -116,5 +143,12 @@ Will be ${(robots[0].online == false) ? "online":"offline"} at: ${robots[0].next
 fs.writeFile("status.txt", obsText, function(err) {
 	if (err) throw err;
 	console.log("file saved")
+	//process.exit()
 });
 });
+
+
+obs.on('error', err => {
+    console.error('socket error:', err);
+});
+

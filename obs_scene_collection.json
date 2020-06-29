@@ -52,12 +52,12 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "{0.0.0.00000000}.{1c52bdd6-b429-4861-82d5-28af604e7948}"
+            "device_id": "{0.0.0.00000000}.{c37e1aee-9884-4759-b95a-9892982d2534}"
         },
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "iphone + gopro",
+    "current_program_scene": "dslr + iphone + gopro",
     "current_scene": "charging ev3",
     "current_transition": "Fade",
     "groups": [
@@ -86,8 +86,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 1532,
-                "cy": 495,
+                "cx": 1562,
+                "cy": 399,
                 "id_counter": 0,
                 "items": [
                     {
@@ -98,23 +98,23 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 624,
+                        "crop_bottom": 654,
                         "crop_left": 1111,
                         "crop_right": 68,
-                        "crop_top": 526,
+                        "crop_top": 495,
                         "group_item_backup": false,
                         "id": 13,
                         "locked": false,
                         "name": "Source Mirror 4",
                         "pos": {
-                            "x": 0.0,
-                            "y": 314.01678466796875
+                            "x": 123.63639831542969,
+                            "y": 231.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 3.6057007312774658,
-                            "y": 3.5999999046325684
+                            "x": 3.2921614646911621,
+                            "y": 3.2941176891326904
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -127,7 +127,7 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 659,
+                        "crop_bottom": 763,
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 178,
@@ -136,14 +136,14 @@
                         "locked": false,
                         "name": "current time",
                         "pos": {
-                            "x": 92.090896606445313,
+                            "x": 0.0,
                             "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.89937508106231689,
-                            "y": 0.89887654781341553
+                            "x": 0.97624999284744263,
+                            "y": 0.9768339991569519
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -180,8 +180,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 4760,
-                "cy": 3911,
+                "cx": 5301,
+                "cy": 2983,
                 "id_counter": 0,
                 "items": [
                     {
@@ -201,8 +201,8 @@
                         "locked": false,
                         "name": "Source Mirror 2",
                         "pos": {
-                            "x": 9.1552734375e-5,
-                            "y": 208.99996948242188
+                            "x": 127.83918762207031,
+                            "y": 292.99996948242188
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -230,14 +230,14 @@
                         "locked": false,
                         "name": "Window Capture",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 128.0,
+                            "y": 84.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 3.076923131942749,
-                            "y": 3.076840877532959
+                            "x": 3.1881766319274902,
+                            "y": 3.1875693798065186
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -260,13 +260,13 @@
                         "name": "Image 3",
                         "pos": {
                             "x": 0.0,
-                            "y": 199.32278442382813
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 3.71875,
-                            "y": 3.7180554866790771
+                            "x": 4.1414060592651367,
+                            "y": 4.1416668891906738
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -408,14 +408,12 @@
             "hotkeys": {
                 "libobs.hide_scene_item.Image": [],
                 "libobs.hide_scene_item.Text (GDI+) 8": [],
-                "libobs.hide_scene_item.Window Capture 3": [],
                 "libobs.hide_scene_item.charging eta 2": [],
                 "libobs.hide_scene_item.countdown": [],
                 "libobs.hide_scene_item.dslr": [],
                 "libobs.hide_scene_item.zzzmessage": [],
                 "libobs.show_scene_item.Image": [],
                 "libobs.show_scene_item.Text (GDI+) 8": [],
-                "libobs.show_scene_item.Window Capture 3": [],
                 "libobs.show_scene_item.charging eta 2": [],
                 "libobs.show_scene_item.countdown": [],
                 "libobs.show_scene_item.dslr": [],
@@ -438,35 +436,6 @@
                 "cy": 1383,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Window Capture 3",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0218750238418579,
-                            "y": 1.0217597484588623
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1016,160 +985,6 @@
             },
             "sync": 0,
             "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.hide_scene_item.Color Source": [],
-                "libobs.hide_scene_item.Source Mirror 3": [],
-                "libobs.hide_scene_item.dslr": [],
-                "libobs.hide_scene_item.iphone": [],
-                "libobs.show_scene_item.Color Source": [],
-                "libobs.show_scene_item.Source Mirror 3": [],
-                "libobs.show_scene_item.dslr": [],
-                "libobs.show_scene_item.iphone": []
-            },
-            "id": "group",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Group",
-            "prev_ver": 402653187,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": true,
-                "cx": 3982,
-                "cy": 2160,
-                "id_counter": 0,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 12,
-                        "locked": false,
-                        "name": "dslr",
-                        "pos": {
-                            "x": 141.5,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 13,
-                        "locked": false,
-                        "name": "Color Source",
-                        "pos": {
-                            "x": 141.5,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "iphone",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.5,
-                            "y": 0.5
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 11,
-                        "locked": false,
-                        "name": "Source Mirror 3",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 769.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.14374999701976776,
-                            "y": 0.14398148655891418
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
         }
     ],
     "modules": {
@@ -1277,9 +1092,333 @@
         },
         {
             "name": "status"
+        },
+        {
+            "name": "dslr"
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image 5",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "H:/dslr background.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "VST 2.x Plug-in",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "",
+                        "plugin_path": "C:/Program Files/VSTPlugins/Auburn Sounds Graillon 2-64.dll"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_suppress_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Suppression",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "suppress_level": -18
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "gain_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Gain",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "db": 9.1999999999999993
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_gate_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Gate",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "close_threshold": -28.0,
+                        "open_threshold": -13.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Image Mask/Blend",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "H:/dslr matte.png"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 2,
+            "muted": true,
+            "name": "Video Capture Device",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}",
+                "video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "obs-stream-effects-filter-dynamic-mask",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Dynamic Mask",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "Filter.DynamicMask.Channel": 3,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Alpha": 0.87000000476837158,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Alpha": 0.87000000476837158,
+                        "Filter.DynamicMask.Channel.Value.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Input": "dslr"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image 5": [],
+                "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.Image 5": [],
+                "libobs.show_scene_item.Video Capture Device": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "dslr",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Image 5",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.0,
+                            "y": 3.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Video Capture Device",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -1626,7 +1765,7 @@
             "settings": {
                 "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden;font-size:3.6em }\n#mainwrapper { background-color: rgba(0, 0, 0, 0);} #important_info, #daydiv, #favs { display:none}",
                 "height": 1200,
-                "url": "https://time.is/UTC",
+                "url": "https://time.is/GMT",
                 "width": 1600
             },
             "sync": 0,
@@ -1675,10 +1814,12 @@
                 "libobs.hide_scene_item.dslr": [],
                 "libobs.hide_scene_item.iphone": [],
                 "libobs.hide_scene_item.overlay": [],
+                "libobs.hide_scene_item.status": [],
                 "libobs.show_scene_item.Source Mirror 3": [],
                 "libobs.show_scene_item.dslr": [],
                 "libobs.show_scene_item.iphone": [],
-                "libobs.show_scene_item.overlay": []
+                "libobs.show_scene_item.overlay": [],
+                "libobs.show_scene_item.status": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1693,7 +1834,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 22,
+                "id_counter": 23,
                 "items": [
                     {
                         "align": 5,
@@ -1734,7 +1875,7 @@
                         "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
-                        "crop_right": 0,
+                        "crop_right": 476,
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 21,
@@ -1742,13 +1883,13 @@
                         "name": "Source Mirror 3",
                         "pos": {
                             "x": 0.0,
-                            "y": 1594.0
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.26197916269302368,
-                            "y": 0.26203703880310059
+                            "x": 0.29399523138999939,
+                            "y": 0.29398149251937866
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1763,21 +1904,21 @@
                         "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
-                        "crop_right": 0,
+                        "crop_right": 861,
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 22,
                         "locked": false,
                         "name": "dslr",
                         "pos": {
-                            "x": 0.0,
+                            "x": 2214.0,
                             "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.28567707538604736,
-                            "y": 0.28564813733100891
+                            "x": 0.22589616477489471,
+                            "y": 0.22592592239379883
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1807,6 +1948,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 23,
+                        "locked": false,
+                        "name": "status",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 935.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.56718748807907104,
+                            "y": 0.56712961196899414
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1891,8 +2061,11 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "left": 109,
-                        "right": 307
+                        "bottom": 0,
+                        "left": 105,
+                        "relative": true,
+                        "right": 294,
+                        "top": 0
                     },
                     "sync": 0,
                     "volume": 1.0
@@ -1937,6 +2110,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
+                "compatibility": true,
                 "window": "Apowersoft iPhone/iPad Recorder:WindowsForms10.Window.8.app.0.2982bee_r14_ad1:Apowersoft iPhone Recorder.exe"
             },
             "sync": 0,
@@ -2216,6 +2390,32 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "virtualcam-filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "VirtualCam",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "target": 1
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
@@ -2254,7 +2454,7 @@
                         "locked": false,
                         "name": "Source Mirror 2",
                         "pos": {
-                            "x": 6.8751010985579342e-5,
+                            "x": 0.0001220703125,
                             "y": 156.95037841796875
                         },
                         "private_settings": {},
@@ -2283,14 +2483,14 @@
                         "locked": false,
                         "name": "Window Capture",
                         "pos": {
-                            "x": 0.0,
+                            "x": 0.120880126953125,
                             "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.3105981349945068,
-                            "y": 2.3105809688568115
+                            "x": 2.3941433429718018,
+                            "y": 2.3937335014343262
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2312,14 +2512,14 @@
                         "locked": false,
                         "name": "Image 3",
                         "pos": {
-                            "x": 0.0,
-                            "y": 149.68321228027344
+                            "x": -96.0,
+                            "y": -63.080543518066406
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.792574405670166,
-                            "y": 2.7921066284179688
+                            "x": 3.1099655628204346,
+                            "y": 3.1102213859558105
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2341,8 +2541,8 @@
                         "locked": false,
                         "name": "Group 6",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": -96.0,
+                            "y": -63.080543518066406
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -2417,7 +2617,9 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image 5": [],
                 "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.Image 5": [],
                 "libobs.show_scene_item.Video Capture Device": []
             },
             "id": "scene",
@@ -2433,8 +2635,37 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 3,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Image 5",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.0,
+                            "y": 3.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -2776,23 +3007,23 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 624,
+                        "crop_bottom": 654,
                         "crop_left": 1111,
                         "crop_right": 68,
-                        "crop_top": 526,
+                        "crop_top": 495,
                         "group_item_backup": true,
                         "id": 13,
                         "locked": false,
                         "name": "Source Mirror 4",
                         "pos": {
-                            "x": 2796.375,
-                            "y": 2036.0831298828125
+                            "x": 2896.125,
+                            "y": 2020.9942626953125
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.4789192676544189,
-                            "y": 2.4756448268890381
+                            "x": 2.2633609771728516,
+                            "y": 2.2652959823608398
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2805,7 +3036,7 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 659,
+                        "crop_bottom": 763,
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 178,
@@ -2814,14 +3045,14 @@
                         "locked": false,
                         "name": "current time",
                         "pos": {
-                            "x": 2859.6875,
-                            "y": 1820.140380859375
+                            "x": 2811.125,
+                            "y": 1862.140380859375
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.61832034587860107,
-                            "y": 0.61813861131668091
+                            "x": 0.67117184400558472,
+                            "y": 0.67174834012985229
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2843,8 +3074,8 @@
                         "locked": false,
                         "name": "Group 7",
                         "pos": {
-                            "x": 2796.375,
-                            "y": 1820.140380859375
+                            "x": 2811.125,
+                            "y": 1862.140380859375
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -3365,6 +3596,30 @@
                     },
                     "sync": 0,
                     "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "virtualcam-filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "VirtualCam",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "target": 2
+                    },
+                    "sync": 0,
+                    "volume": 1.0
                 }
             ],
             "flags": 0,
@@ -3874,7 +4129,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 12,
+                "id_counter": 13,
                 "items": [
                     {
                         "align": 5,
@@ -3901,35 +4156,6 @@
                         "scale": {
                             "x": -0.59210526943206787,
                             "y": 0.59210526943206787
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Window Capture 3",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.5973037481307983,
-                            "y": 1.5969617366790771
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4207,30 +4433,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "window_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Window Capture 3",
-            "prev_ver": 402653187,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "window": "Studio:UnityWndClass:Studio.exe"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
             "id": "text_gdiplus",
             "mixers": 0,
             "monitoring_type": 0,
@@ -4281,6 +4483,28 @@
                 },
                 "text": "EV3 Charging..."
             },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": false,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "premultiplied_alpha_filter",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "obs-ndi - Fix alpha blending",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
             "sync": 0,
             "volume": 1.0
         },
@@ -4386,10 +4610,16 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Group": [],
+                "libobs.hide_scene_item.Color Source": [],
+                "libobs.hide_scene_item.Source Mirror 3": [],
+                "libobs.hide_scene_item.dslr": [],
+                "libobs.hide_scene_item.iphone": [],
                 "libobs.hide_scene_item.overlay": [],
                 "libobs.hide_scene_item.status": [],
-                "libobs.show_scene_item.Group": [],
+                "libobs.show_scene_item.Color Source": [],
+                "libobs.show_scene_item.Source Mirror 3": [],
+                "libobs.show_scene_item.dslr": [],
+                "libobs.show_scene_item.iphone": [],
                 "libobs.show_scene_item.overlay": [],
                 "libobs.show_scene_item.status": []
             },
@@ -4406,7 +4636,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 15,
+                "id_counter": 19,
                 "items": [
                     {
                         "align": 5,
@@ -4420,12 +4650,12 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 12,
+                        "group_item_backup": false,
+                        "id": 16,
                         "locked": false,
                         "name": "dslr",
                         "pos": {
-                            "x": 283.0,
+                            "x": 305.0,
                             "y": 0.0
                         },
                         "private_settings": {},
@@ -4449,12 +4679,12 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 13,
+                        "group_item_backup": false,
+                        "id": 17,
                         "locked": false,
                         "name": "Color Source",
                         "pos": {
-                            "x": 283.0,
+                            "x": 292.0,
                             "y": 0.0
                         },
                         "private_settings": {},
@@ -4469,17 +4699,17 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 4,
+                        "group_item_backup": false,
+                        "id": 18,
                         "locked": false,
                         "name": "iphone",
                         "pos": {
@@ -4505,41 +4735,12 @@
                         "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 11,
-                        "locked": false,
-                        "name": "Source Mirror 3",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 1538.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.28749999403953552,
-                            "y": 0.28796297311782837
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
+                        "crop_right": 476,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 14,
+                        "id": 19,
                         "locked": false,
-                        "name": "Group",
+                        "name": "Source Mirror 3",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -4547,8 +4748,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.0,
-                            "y": 2.0
+                            "x": 0.29399523138999939,
+                            "y": 0.29398149251937866
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4757,11 +4958,36 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "brightness": 0.20999999999999999,
-                        "contrast": 0.39000000000000001,
+                        "brightness": 0.14999999999999999,
+                        "contrast": 0.33000000000000002,
                         "gamma": 0.040000000000000001,
-                        "hue_shift": 7.9800000000000004,
-                        "saturation": -0.040000000000000001
+                        "hue_shift": 10.710000000000001,
+                        "saturation": 0.16
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "transparency",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "H:/white.png",
+                        "opacity": 90
                     },
                     "sync": 0,
                     "volume": 1.0
@@ -5213,7 +5439,7 @@
             "id": "vlc_source",
             "mixers": 255,
             "monitoring_type": 2,
-            "muted": false,
+            "muted": true,
             "name": "VLC Video Source 2",
             "prev_ver": 402653187,
             "private_settings": {},
@@ -5232,7 +5458,7 @@
                 ]
             },
             "sync": 0,
-            "volume": 0.0093142762780189514
+            "volume": 0.0018464321037754416
         },
         {
             "balance": 0.5,
@@ -5256,137 +5482,6 @@
                 "color": 4278190080,
                 "height": 1080,
                 "width": 1920
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": false,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "vst_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "VST 2.x Plug-in",
-                    "prev_ver": 402653187,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "chunk_data": "7zs1PwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAADvOzU/AAAAAAAAAAAAAAAAAACAPwAAAD8AAAAAAAAAPwAAAAAAAAAAAAAAAAAAgD/TMgE/AAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAAAA=",
-                        "plugin_path": "C:/Program Files/VSTPlugins/Auburn Sounds Graillon 2-64.dll"
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_suppress_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Noise Suppression",
-                    "prev_ver": 402653187,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "suppress_level": -18
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": false,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "gain_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Gain",
-                    "prev_ver": 402653187,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "db": 9.1999999999999993
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_gate_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Noise Gate",
-                    "prev_ver": 402653187,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "close_threshold": -33.0,
-                        "open_threshold": -17.0
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 2,
-            "muted": false,
-            "name": "Video Capture Device",
-            "prev_ver": 402653187,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": true,
-                "last_video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}",
-                "video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}"
             },
             "sync": 0,
             "volume": 1.0
@@ -5830,6 +5925,327 @@
                     "style": "Regular"
                 },
                 "text": "Will be online at:"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image 5",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "H:/dslr background.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "VST 2.x Plug-in",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "",
+                        "plugin_path": "C:/Program Files/VSTPlugins/Auburn Sounds Graillon 2-64.dll"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_suppress_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Suppression",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "suppress_level": -18
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "gain_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Gain",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "db": 9.1999999999999993
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_gate_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Gate",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "close_threshold": -28.0,
+                        "open_threshold": -13.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "mask_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Image Mask/Blend",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "image_path": "H:/dslr matte.png"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 2,
+            "muted": true,
+            "name": "Video Capture Device",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}",
+                "video_device_id": "Game Capture HD60 S (Video) (#2201):\\\\?\\usb#22vid_0fd9&pid_004f#22070fb6550a#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{6f814be9-9af6-43cf-9249-c0340100021f}"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "obs-stream-effects-filter-dynamic-mask",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Dynamic Mask",
+                    "prev_ver": 402653187,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "Filter.DynamicMask.Channel": 3,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Alpha": 0.87000000476837158,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Alpha": 0.87000000476837158,
+                        "Filter.DynamicMask.Channel.Value.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Input": "dslr"
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image 5": [],
+                "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.Image 5": [],
+                "libobs.show_scene_item.Video Capture Device": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "dslr",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Image 5",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.0,
+                            "y": 3.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Video Capture Device",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
